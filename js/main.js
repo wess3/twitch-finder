@@ -97,8 +97,8 @@ $(document).ready(function () {
 
     const profile =
     `<div class="profile">
-      <div class="name" id="name-${num}"><img src="../img/${user.status}.png">${user.name}</div>
-      <div class="data" id="data-${num}">
+      <div class="name""><img src="../img/${user.status}.png">${user.name}</div>
+      <div class="data"">
         <img src="${user.image}" alt="img">
         <div class="text">
           <div class="stream-name"><a href="${user.link}" target="_blank">${user.stream}</a></div>
@@ -116,11 +116,6 @@ $(document).ready(function () {
         $(this).children(".data").toggle(1000);
       });
     }
-
-    /*$("name-" + num).on("click", function() {
-      console.log("brr");
-      $("data-" + num).toggle(2000);
-    });*/
   }
 
 });
