@@ -113,7 +113,7 @@ $(document).ready(function () {
 
     if (num === total - empty) {
       $(".profile").on("click", function() {
-        $(this).children(".data").toggle(1000);
+        $(this).children(".data").slideToggle(1000);
       });
     }
   }
