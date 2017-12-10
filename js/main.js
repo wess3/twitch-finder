@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
   // Number Of Inputs
-  let total = 3;
+  let total = 4;
   // Number Of Streamers
   let num = 0;
   // Number Of Empty Spaces In Form
