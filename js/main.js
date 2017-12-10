@@ -97,7 +97,7 @@ $(document).ready(function () {
 
     const profile =
     `<div class="profile">
-      <div class="name""><img src="../img/${user.status}.png">${user.name}</div>
+      <div class="name""><img src="..\img\${user.status}.png">${user.name}</div>
       <div class="data"">
         <img src="${user.image}" alt="img">
         <div class="text">
